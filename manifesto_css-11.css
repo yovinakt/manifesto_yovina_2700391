@@ -1,0 +1,91 @@
+.first{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: arial;
+    
+    text-align:left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    
+    width:2500px;
+    }
+
+#rule{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: arial;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: sticky;
+    left: 380px;
+    margin-top: 470px;
+    max-width: 100px;
+    }
+
+
+#number{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: arial;
+    
+    text-align:left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 420px;
+    left: 1980px;
+    
+    width:3000px;}
+
+
+
+#that{ font-weight: bold;
+    font-size: 50px;
+    font-family: arial;
+    
+    text-align:left;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 910px;
+    top: 420px;
+    left: 1980px;
+}
+    
+
+#it{font-weight: bold;
+    font-size: 50px;
+    font-family: arial;
+    
+    text-align:left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 420px;
+    left: 2860px;
+    
+    width:3000px;}
+
+
+#matter{font-weight: bold;
+    font-size: 50px;
+    font-family: arial;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: sticky;
+    margin-right: -3150px;
+    margin-left: 900px;
+    left: 780px;
+    margin-top: -110px;   
+    max-width: 1000px;
+    }
+#think{font-weight: bold;
+    font-size: 80px;
+    font-family: arial;
+    
+    text-align:left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 370px;
+    left: 4000px;
+    
+    width:500px;}

@@ -1,0 +1,48 @@
+.mo{
+    position: absolute;
+    left: 45%;
+    top: 45%; 
+    float:inherit;
+    border-style: double;
+    padding: 10px;
+    }
+
+#less{ 
+    width: 100px;
+    padding: 50px;
+    position: absolute;
+    left: 2000px;
+    top: 45%;
+    }
+ 
+.is{
+    width: 100px;
+    padding: 50px;
+    position: absolute;
+    left: 2200px;
+    top: 55%;}
+
+#not{
+    width: 100px;
+    padding: 50px;
+    position: absolute;
+    left: 2300px;
+    top: 40%;
+    }
+    
+#necc{
+    width: 100px;
+    padding: 50px;
+    position: absolute;
+    left: 2500px;
+    top: 45%;  
+    }
+    
+#more{
+    width: 1000px;
+    padding: 50px;
+    position: absolute;
+    left: 3000px;
+    top: 45%; 
+    
+}

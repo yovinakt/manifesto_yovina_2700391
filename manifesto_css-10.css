@@ -1,0 +1,70 @@
+.love{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    }
+
+#luv{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    text-align:center;
+    text-transform: uppercase;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+    }
+
+#nature{
+        font-weight: normal;
+        font-size: 15px;
+        font-family: monospace;
+        letter-spacing: 1px;
+        text-align:center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 58%;
+        left: 45%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        }
+    
+#lovelink{
+        font-weight: normal;
+        font-size: 15px;
+        font-family: monospace;
+        letter-spacing: 2px;
+        text-align:center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 200%;
+        left: 45%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        height:590px;
+    }
+
+
+#real{
+        font-size: 20px;
+        font-family:serif;
+        letter-spacing: 1px;
+        text-align:center;
+        position: absolute;
+        top: 200%;
+        left: 45%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        height:350px;}

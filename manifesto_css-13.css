@@ -1,0 +1,125 @@
+
+.toxic{    font-weight: bold;
+    font-size: 200px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align:center;
+
+    position: absolute;
+    margin-top:45%;
+    
+    
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    } 
+
+    @keyframes slidein {
+    from {
+    margin-left: -500%;
+    width: 500%; 
+    }}
+    to {
+    margin-left: -500%;
+    width: 500%;
+}
+        
+
+html {
+  height: 100%;
+  
+  background-color: #1c1c1c;
+  
+  background-image:
+    radial-gradient(
+      red 100%,
+      transparent 0%
+      ),
+      radial-gradient(
+      black  50%,
+      transparent 35%
+      );
+ 
+  
+  background-position: 50% 50%, 50% calc(50% + .3em);
+  background-size: 3em 2em, 3em 1em;
+  background-repeat: no-repeat;
+  
+  animation: bounce 2s infinite;
+  }
+
+    @keyframes bounce {
+    0% {
+    background-position: 50% calc(50% - 4em), 50% calc(50% + .4em);
+    background-size: 2em 2em, 1em 1em;
+    }
+    30% {
+    background-position: 50% 50%, 50% calc(50% + .3em);
+    background-size: 2em 2em, 3em 1em;
+    }
+    45% {
+    background-position: 50% 50%, 50% calc(50% + .3em);
+    background-size: 2em 1.5em, 3em 1em;
+    }
+    50% {
+    background-position: 50% 50%, 50% calc(50% + .3em);
+    background-size: 2em 1em, 3em 1em;
+    }
+    100% {
+    background-position: 50% calc(50% - 4em), 50% calc(50% + .3em);
+    background-size: 2em 2em, 1em 1em;
+    }
+  }
+
+#some{ 
+    font-weight: bold;
+    font-size: 200px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align:center;
+
+    position: absolute;
+    margin-top:90px;
+    
+    
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    } 
+
+    @keyframes slidein {
+    from {
+    margin-left: 200%;
+    width: 200%; 
+    }}
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+
+
+.flash {
+      font-weight:bolder;
+        font-size: 100px;
+        line-height: 80%;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-top: 500px;
+        margin-left: -50px;
+        text-align:center;
+     text-transform: uppercase;
+        
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}

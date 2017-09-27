@@ -1,0 +1,51 @@
+
+.headline {
+    position: fixed;
+    left: 100px;
+    top: 50px;
+    float: left;
+    border-bottom: thick dotted red;
+    border-bottom-width: 15px;
+    height:50px;
+    }          
+    
+
+#thoughts {
+            position: fixed;
+            top:90%;
+            right:100px;
+            border: 15px red;
+            border-style: dotted;
+            padding:10px;
+            border-bottom-style:none;
+            border-right-style:none;
+            border-left-style:none;
+            }
+.deeply {
+        position: sticky;
+        top:50px;
+        margin-left: 40%;
+        padding-top: 500px;
+        padding-bottom: 1500px;   
+        }
+
+#prevent {
+        position: sticky;
+        top:10px;
+        margin-left: 15%;
+        padding-top: 400px;
+        padding-bottom: 800px;   
+       }
+
+#ideological {
+        position: sticky;
+        top:5px;
+        margin-left: 50%;
+        padding-top: 100px;
+        padding-bottom: 815px; 
+        }
+h3 {
+    position: absolute;
+    margin-left: 30%;
+    padding-bottom: 600px;        
+    }
